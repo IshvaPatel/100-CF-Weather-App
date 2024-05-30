@@ -16,7 +16,7 @@ This web application retrieves current weather information from OpenWeatherMap a
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/weather-forecast-app.git
+    git clone ssh://git@github.com:IshvaPatel/100-CF-Weather-App.git
     ```
 
 2. Navigate to the project directory:
