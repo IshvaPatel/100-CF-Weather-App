@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <script     src="../static/weather.js"
+                type="text/javascript">
+    </script>
+</head>
+<body>
+    <div class="header-bar">
+        <h1>Weather App</h1>
+    </div>
+    <input type="text" id="city" placeholder="Enter city name">
+    <h5>Please provide the city name.<br>Use the format city name, state code (only for the US) and country code divided by comma. Please use ISO 3166 country codes.</h5>
+    <button onclick="fetchWeather()">Get Weather</button>
+
+    <div id="weather-info" style="display: none;">
+        
+    </div>
+    <div id="weather-info2" style="display: none;">
+        <p>Temperature: <span id="temperature"></span></p>
+        <p>Wind Speed: <span id="wind-speed"></span></p>
+        <p>Humidity: <span id="humidity"></span></p>
+    </div>
+    
+    <br>
+    <button onclick="saveFavorite()">Save as Favorite</button>
+    <br>
+    <h2>Enter City Name for Weather Forecast</h2>
+    <form action="forecast.html" method="post">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        <button type="submit">Get Forecast</button>
+    </form>
+    <pre id="weather-info"></pre>
+
+    <h2>Favorite Searches</h2>
+    <ul id="favorites-list"></ul>
+</body>
+</html>
