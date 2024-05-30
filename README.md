@@ -58,9 +58,6 @@ Integration with Multiple Data Sources: Extend the model to retrieve data from m
 
 Model Evaluation and Hyperparameter Tuning: Implement thorough model evaluation techniques and hyperparameter tuning to optimize the model's performance.
 
-Deployment: Develop methods for deploying the model in production environments, such as containerization or serverless architectures.
-
-Real-time Forecasting: Implement real-time forecasting capabilities to provide up-to-date predictions as new data becomes available.
 
 
 
