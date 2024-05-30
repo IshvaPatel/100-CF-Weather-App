@@ -45,12 +45,12 @@ This web application retrieves current weather information from OpenWeatherMap a
 
 4. Optionally, click on the "Generate Forecast" button to generate a forecast for the next ten hours based on historical data.
 
-#Improvements
+## Improvements
 Increase Dataset Size: Retrieving a larger dataset can provide more diverse examples for training, leading to better model performance.
 Add More LSTM Layers: Increasing the depth of the neural network architecture by adding more LSTM layers can help capture more complex patterns in the data, improving the model's predictive capabilities.
 Pretrained Models: Utilizing pretrained models trained on larger datasets can offer better performance out-of-the-box. Fine-tuning or transfer learning techniques can be applied to adapt the pretrained model to the specific dataset if necessary.
 
-#Future Works
+## Future Works
 
 Integration with Multiple Data Sources: Extend the model to retrieve data from multiple sources to enrich the dataset and improve forecasting accuracy.
 Model Evaluation and Hyperparameter Tuning: Implement thorough model evaluation techniques and hyperparameter tuning to optimize the model's performance.
